@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- modify this form HTML and place wherever you want your form -->
+
+<header class="header">
+      <p class="header__logo">
+        <a href="./index.html">Prueba de E-Commerce</a>
+      </p>
+      <nav class="header__nav">
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+        </ul>
+      </nav>
+</header>
+<main>
+<section class="contacto">
+  <h1 class="titulo-contacto">Formulario de Contacto</h1>
+<form
+  class = "formulario"
+  action="https://formspree.io/f/mnnbokjv"
+  method="POST"
+>
+  <div class="campo-mail">
+    
+  
+  <label>
+    Se enviara un correo electronico a: <strong> - "hmayochi@hotmail.com" - </strong>
+    <br>
+    Tu correo electronico:
+    <input type="email" name="email" required>
+  </label>
+  </div>
+
+  <div class="campo-mensaje-mail">
+    <label>
+      Tu mensaje:
+        <textarea name="message"></textarea>
+    </label>
+  </div>
+  <!-- Asunto del mail que te llega -->
+  <input type="hidden" name="subject" value="Contacto desdel el sitio de pruebas" />
+  <!-- your other form fields go here -->
+  <button type="submit">Enviar ♥ </button>
+  <button type="reset">Limpiar 🗑</button>
+  <li>
+    <a href="../index.html">Volver a Home</a>
+  </li>
+</form>  
+</section> 
+</main>
+<footer class="footer">
+        
+        <p>Pre-Entrega   Diseñada por Horacio Javier Mayochi -2025-</p>
+
+</footer>
+</body>
+</html>
